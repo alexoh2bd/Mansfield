@@ -40,7 +40,7 @@ style container */
 /* styling when hovering over items in the navbar */
 .navbar a:hover,
 .dropdown:hover .dropdownButton {
-  background-color: rgb(255, 81, 0);
+  background-color: var(--tertiary-rgb);
 }
 
 /* styling for items in the dropdown menu */
@@ -76,6 +76,7 @@ style container */
   float: right;
   color: green;
   padding: 15px 15px;
+  font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
 }

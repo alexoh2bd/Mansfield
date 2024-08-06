@@ -6,10 +6,10 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --primary-rgb: black;
-  --secondary-rgb: green;
-  --tertiary-rgb: rgb(255, 81, 0);
+  --secondary-rgb: rgb(200, 170, 118);
+  --tertiary-rgb: rgb(201, 36, 63);
 
-  --background-rgb: lightgrey;
+  --background-rgb: #f1f1f1;
 
   /*   --foreground-rgb: 0, 0, 0;
   --background-end-rgb: 255, 255, 255;
