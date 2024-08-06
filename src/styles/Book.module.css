@@ -68,6 +68,7 @@
 .bet {
   border-radius: 10px;
   background-color: var(--secondary-rgb);
+
   height: 60px;
   padding: 5px;
 }

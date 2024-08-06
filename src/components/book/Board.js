@@ -14,7 +14,7 @@ export default function Board({ cart, setCart, currentLeague }) {
   useEffect(() => {
     (async () => {
       // update firebase possibly
-      await fetch("/api/scores", {
+      await fetch("/api/odds", {
         method: "PUT",
         headers: {
           Accept: "application/json",
@@ -23,7 +23,7 @@ export default function Board({ cart, setCart, currentLeague }) {
       });
 
       // pull data
-      const response = await fetch(`api/scores/${currentLeague.key}`);
+      const response = await fetch(`api/odds/${currentLeague.key}`);
       if (response.ok) {
         const gameOdds = Object.values(await response.json());
         setGames(gameOdds);

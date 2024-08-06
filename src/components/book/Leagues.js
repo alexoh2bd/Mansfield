@@ -7,6 +7,7 @@ export default function Leagues({ leaguesCollection, setCurrentLeague }) {
       key={league.key}
       type="button"
       onClick={() => setCurrentLeague(league)}
+      data-testid="league"
     >
       {league.title}
     </button>

@@ -6,7 +6,7 @@ const router = createRouter();
 const db = getDatabase();
 
 router.get(authenticated, async (req, res) => {
-  const reference = ref(db, `scores/${req.query.league}`);
+  const reference = ref(db, `games/${req.query.league}`);
 
   await get(reference).then((snapshot) => {
     const currentTimestamp = Date.now() / 1000;

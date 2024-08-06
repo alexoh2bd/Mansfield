@@ -4,6 +4,7 @@ export default function LoginWidget() {
   return (
     <div>
       <button
+        data-testid="loginButton"
         type="button"
         onClick={() =>
           signIn("google", {
