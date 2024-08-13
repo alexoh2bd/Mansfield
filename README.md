@@ -39,3 +39,29 @@ Tools for mocking fetch can be installed with
 ```
 
 Note we need to pin the `node-fetch` version due to breaking changes when used with Jest in newer versions.
+Note we need to pin the `node-fetch` version due to breaking changes when used with Jest in newer versions.
+
+
+
+## Application Walkthrough
+
+The user opens the app to the login page. Upon clicking the "Login" button, the user is taken through a secure Google Authentication process in which they use their own email to log into the application.
+
+##### Login Page
+![login](./screenshots/login.png)
+
+The home page displays the sports leagues which one could bet in. The user's mock balance is displayed in the top right corner. Upon selecting a league, the closest upcoming sporting events and games in the league are displayed along with their moneyline, spread, and total over/under odds. Players can then bet their mock balance on upcoming games and receive payout in their account once the game is complete.
+
+##### Book Page
+![book](./screenshots/book.png)
+
+Users can view the past filled bet history, their updated balance, and their active upcoming bets on the active and current bets pages.
+
+##### Active Bets
+![active](./screenshots/activebets.png)
+
+##### Bet History
+![history](./screenshots/bethistory.png)
+
+
+
