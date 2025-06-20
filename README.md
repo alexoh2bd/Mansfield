@@ -3,8 +3,9 @@
 ![workflow status](https://github.com/csci312a-f23/project-mansfield/actions/workflows/node.js.yml/badge.svg)
 
 ## Application
+I collaborated on the development of a sports betting web application that enables users to place and track wagers with persistent account management across sessions. I built a local endpoint API to manage user balances and betting history and contributed to frontend feature design and implementation, with a strong focus on improving the user experience through iterative feedback. I designed the Firebase database architecture and deployed Google Cloud Functions to enable real-time updates within the app. This project strengthened my skills in full-stack development, cloud deployment, and performance optimization.
 
-This application should allow the user to place and track sports wagers. Each user will have an account that tracks their balance and history across site visits.
+This full-stack web application  allows users to place and track sports wagers with persistent, secure Google account functionality to manage balances and betting history across sessions.
 
 ## Application link
 
